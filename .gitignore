@@ -1,6 +1,5 @@
 *		# ignore all and create whitelist
-*.b*		# eagle sometimes create files line `something.b##` or something smiliar
+*.[bs]*		# eagle sometimes create files line `something.b##` or something smiliar
 !*.brd		# but we need *.brd files
-*.s*
 !*.sch		# and we need *.sch files
 
