@@ -1,4 +1,4 @@
 *		# ignore all and create whitelist
 !*.brd		# but we need *.brd files
 !*.sch		# and we need *.sch files
-
+!.gitignore
